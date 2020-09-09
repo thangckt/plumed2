@@ -32,7 +32,7 @@ public:
   explicit PairANGLE(const ActionOptions&);
 };
 
-PLUMED_REGISTER_ACTION(PairANGLE,"ATOMIC_SMAC")
+PLUMED_REGISTER_ACTION(PairANGLE,"PAIR_ANGLE")
 
 void PairANGLE::registerKeywords(Keywords& keys) {
   ActionShortcut::registerKeywords( keys );
